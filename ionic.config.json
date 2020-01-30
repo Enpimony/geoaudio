@@ -1,0 +1,7 @@
+{
+  "name": "geoaudio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
