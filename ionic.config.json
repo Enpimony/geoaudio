@@ -1,7 +1,8 @@
 {
   "name": "geoaudio",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

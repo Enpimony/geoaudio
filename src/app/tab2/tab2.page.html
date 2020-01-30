@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      GeoAudio - Record audio
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Geolocation</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <button ion-button (click)="recordAudio()">Record</button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
